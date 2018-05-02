@@ -50,6 +50,7 @@ a{
   border: 5px solid yellow;
   width: 1200px;
   height: 700px;
+  margin: auto;
   z-index: -2;
   display: flex;
   justify-content: center;
