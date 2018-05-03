@@ -95,3 +95,46 @@ a{
   margin: 0 auto;
   border: 3px solid cyan;
 }
+.locations{
+  border: 5px solid yellow;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url('../Resources/Pictures/img-locations-background.jpg')
+}
+.headinglocal{
+  width: 1200px;
+  display: flex;
+  margin: 0;
+  border: 3px solid blue;
+  justify-content: center;
+
+}
+.localgroup{
+  display: flex;
+  width: 1200px;
+  border: 5px solid red;
+  height: 350px;
+  align-items: center;
+  justify-content: center;
+}
+
+.location1{
+  margin-right: 40px;
+  background-color: black;
+  width: 300px;
+}
+.location2{
+  background-color: black;
+  width: 300px;
+  margin-right: 40px;
+}
+.location3{
+  background-color: black;
+  width: 300px;
+}
