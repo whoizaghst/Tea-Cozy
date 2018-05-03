@@ -5,6 +5,7 @@ body{
   color: seashell;
   opacity: 0.9;
   margin: 0;
+  text-align: center;
 }
 a{
   display: flex;
@@ -40,17 +41,12 @@ a{
 }
 
       /*MAINCONTENT*/
-.content{
-  border: 10px solid red;
-  text-align: center;
-  display: block;
 
-}
 .test{
   border: 5px solid yellow;
   width: 1200px;
   height: 700px;
-  margin: auto;
+  margin: 0 auto;
   z-index: -2;
   display: flex;
   justify-content: center;
@@ -71,7 +67,31 @@ a{
 }
 .img{
   display: flex;
-  justify-content: center;
+  width: 1000px;
+  justify-content: space-around;
+  margin: 0 auto;
   border: 3px solid yellow;
 }
-        /*MISSION*/
+.items1{
+  display: flex;
+  border: 3px solid cyan;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.img2{
+  display: flex;
+  width: 669px;
+  justify-content: space-around;
+  margin: 0 auto;
+  border: 3px solid yellow;
+}
+.items2{
+  display: flex;
+  width: 669px;
+  justify-content: space-around;
+  margin: 0 auto;
+  border: 3px solid cyan;
+}
