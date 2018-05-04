@@ -14,6 +14,9 @@ a{
   color: white;
   text-decoration: underline;
 }
+h2, h3, h4{
+  margin: 0;
+}
 
 
 
@@ -26,15 +29,11 @@ a{
   justify-content: space-between;
   align-items: center;
   height: 69px;
+  position: fixed;
+  margin: 0 auto;
   /*border-bottom: 2px solid white;*/
 }
 
-.select{
-  border: 5px solid red;
-  display: block;
-  margin: 0 15px;
-
-}
 .logo1{
   display: flex;
   align-items: center;
@@ -55,7 +54,7 @@ a{
   border: 5px solid yellow;
   width: 1200px;
   height: 700px;
-  margin: 0 auto;
+  padding-bottom:  69px;
   z-index: -2;
   display: flex;
   justify-content: center;
@@ -66,33 +65,37 @@ a{
 
 .mission{
   width:1200px;
-  border: 10px solid red;
-  z-index: 3;
-  height: 150px;
   display: flex;
+  height: 100px;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   background-color: black;
 }
 .img{
   display: flex;
   width: 1000px;
+  margin: 5px auto;
+  padding: 5px;
   justify-content: space-around;
   margin: 0 auto;
-  border: 3px solid yellow;
+
 }
 .img2{
   display: flex;
   width: 669px;
   justify-content: space-around;
-  margin: 0 auto;
-  border: 3px solid yellow;
+  padding: 5px auto;
+  margin: 5px auto;
+
+
 }
 .locations{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
   border: 5px solid yellow;
   width: 1200px;
   height: 500px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -109,13 +112,20 @@ a{
   justify-content: center;
 }
 .location{
-  margin: 5px 20px;
+  margin: 0px 20px;
   background-color: black;
   width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
 }
 .footer{
   height: 200px;
-  border: 5px solid blue;
+  margin: 0px auto;
+  border: 5px solid cyan;
+
 }
 .tm{
   text-align: left;
