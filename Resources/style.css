@@ -1,10 +1,12 @@
 body{
+  display: block;
   background-color: black;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
   margin: 0;
+  padding: 0;
   text-align: center;
 }
 a{
@@ -12,6 +14,7 @@ a{
   color: white;
   text-decoration: underline;
 }
+
 
 
 /* BANNER */
@@ -24,6 +27,13 @@ a{
   align-items: center;
   height: 69px;
   /*border-bottom: 2px solid white;*/
+}
+
+.select{
+  border: 5px solid red;
+  display: block;
+  margin: 0 15px;
+
 }
 .logo1{
   display: flex;
@@ -40,7 +50,6 @@ a{
   justify-content: space-between;
 }
 
-      /*MAINCONTENT*/
 
 .test{
   border: 5px solid yellow;
@@ -72,28 +81,12 @@ a{
   margin: 0 auto;
   border: 3px solid yellow;
 }
-.items1{
-  display: flex;
-  border: 3px solid cyan;
-  width: 1000px;
-  margin: 0 auto;
-  text-align: center;
-  justify-content: space-around;
-  align-items: flex-start;
-}
 .img2{
   display: flex;
   width: 669px;
   justify-content: space-around;
   margin: 0 auto;
   border: 3px solid yellow;
-}
-.items2{
-  display: flex;
-  width: 669px;
-  justify-content: space-around;
-  margin: 0 auto;
-  border: 3px solid cyan;
 }
 .locations{
   border: 5px solid yellow;
@@ -105,28 +98,26 @@ a{
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-bottom: 70px;
   background-image: url('../Resources/Pictures/img-locations-background.jpg')
-}
-.headinglocal{
-  width: 1200px;
-  display: flex;
-  margin: 0;
-  border: 3px solid blue;
-  justify-content: center;
-
 }
 .localgroup{
   display: flex;
   width: 1200px;
   border: 5px solid red;
-
   align-items: center;
   justify-content: center;
-  margin-top: 15px;
 }
-
 .location{
   margin: 5px 20px;
   background-color: black;
   width: 300px;
+}
+.footer{
+  height: 200px;
+  border: 5px solid blue;
+}
+.tm{
+  text-align: left;
+  margin-left: 20px;
 }
