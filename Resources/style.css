@@ -49,9 +49,10 @@ h3, h4{
   flex-direction: row;
   justify-content: space-between;
 }
+
 /*Mission*/
 
-#mission1{
+.img3{
   width: 1200px;
   height: 700px;
   margin-top: 70px;
