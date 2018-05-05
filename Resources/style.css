@@ -14,8 +14,11 @@ a{
   color: white;
   text-decoration: underline;
 }
-h2, h3, h4{
-  margin: 0;
+h2{
+  margin: 15px;
+}
+h3, h4{
+  margin: 10px;
 }
 /* BANNER */
 
@@ -39,7 +42,7 @@ h2, h3, h4{
   margin-left: 10px;
 }
 .menutop{
-  width: 500px;
+  width: 400px;
   display: flex;
   margin-right: 10px;
   flex-direction: row;
@@ -64,14 +67,10 @@ h2, h3, h4{
   justify-content: space-around;
   background-color: black;
 }
-.Tea{
-  margin-top: 30px;
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-justify-content: space-around;
 
-}
+/* Tea Of The Month */
+
+
 .img{
   display: flex;
   width: 1000px;
@@ -88,7 +87,7 @@ justify-content: space-around;
   margin: 5px auto;
 }
 .locations{
-  margin-top: 50px;
+  margin-bottom: 15px;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
